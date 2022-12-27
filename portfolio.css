@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'gum';
+    src: url(gum.otf);
+}
+html{
+    height:  89%;
+}
+body{
+    background: linear-gradient(-45deg, #f7f4f3, #f4b5e5, #e5b0da, #ef94c7);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    height: 100%;
+}
+nav{
+    display: flex;
+    
+}
+nav img{
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+nav ul{
+    display: flex;
+    vertical-align: middle;
+    position: fixed;
+    background-color: rgb(244, 243, 243);
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+}
+nav ul li{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 2px solid rgb(11, 10, 11);
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 black;
+    transition: ease-out 0.4s;
+}
+.link button{
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li:hover{
+    box-shadow: inset 0 100px 0 0 #f671bc;
+    transition: 0.5s;
+}
+.dynamic-txts li span{
+    z-index: 0;
+}
+.container{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+}
+.text_div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.text_div_ab{
+    width: 50%;
+    margin: auto;
+}
+.text_div_ab_hi{
+    margin: 40px;
+    font-size: 50px;
+    font-family: 'gum';
+    color: rgb(65, 61, 56);
+    width: max-content;
+}
+.text_div_ab_hi hr{
+    background-color: rgb(254, 13, 162);
+}
+.text_div_ab_low{
+    font-size: 18px;
+    margin: 20px;
+    font-family: cursive;
+    color: rgb(65, 61, 56);
+}
+.zurag_div{
+    width: 50%;
+    display: flex;
+
+}
+.hi_div{
+    font-size: 30px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    margin-left: 200px;
+}
+.zurag_div img{
+    border-radius: 10%;
+    margin: auto;
+    width: 70%;
+}
+.zurag_div_ab{
+    width: 50%;
+    display: flex;
+}
+.zurag_div_ab div{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.zurag_div_ab div img{
+    margin: auto;
+    width: 500px;
+}
+.ner_div{
+    display: flex;
+    font-size: 25px;
+    font-family: fantasy;
+    width: 80%;
+    align-items: center;
+    
+}
+.hi_div button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: bisque;
+    border: 3px solid pink;
+    color: black;
+}
+.hi_div button:hover{
+    background-color: antiquewhite;
+}
+.read{
+    display: flex;
+    padding: 10px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.wrapper .static-txt{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    width: 120px;
+    height: 60px;
+
+}
+.wrapper .dynamic-txts{
+    margin-left: 0px;
+    height: 92px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.dynamic-txts li{
+    color: #6d553c;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+    margin-left: -40px;
+    display: flex;
+    width: 250px;
+}
+.photo_div{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.box{
+    aspect-ratio: 1;
+    height: 300px;
+    background-color: rgb(24, 23, 23);
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.box div{
+    margin: auto;
+}
+.box div img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+.photo_div img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+.link{
+    display: flex;
+    align-self: auto;
+    margin-right: 50px;
+}
+.link a{
+    color: black;   
+    text-decoration: none;
+}
+.tom{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 25%;
+    align-items: center;
+}
+.jijg{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 25%;
+    align-items: center;
+}
+.what_do{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+.cntr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div div img{
+    width: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+.div{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.fav{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(227,141,233);
+    background: radial-gradient(circle, rgba(227,141,233,1) 30%, #f4b5e5 50%, #e5b0da 70%);
+    width: 82%;
+    margin: auto;
+    opacity: 0.3;
+}
+.fav div{
+    opacity: 1;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+    
+}
+.follow{
+    margin-top: 100px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr hr{
+    width: 150px;
+    background-color: rgb(254, 13, 162);
+}
+.icon{
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.icon img{
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 20px;
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+  
